@@ -12,12 +12,11 @@
         <title>Simple Note Keeper Page</title>
     </head>
     <body>
-
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
-        <form method="post" action="note">
-            Title: <input type="text" name="subject" maxlength="30" size="30" value="${title}"><br>
-            Contents: <br><textarea rows="8" cols="35" name="message" value="${content}"></textarea><br>
+        <form method="post" action="edit">
+            Title: <input type="text" name="title" maxlength="30" size="30" value="${title}"><br>
+            Contents: <br><textarea rows="8" cols="35" name="content" value="${content}"></textarea><br>
             <input type="submit" value="Save">
         </form>
     </body>

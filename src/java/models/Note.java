@@ -40,6 +40,4 @@ public class Note {
         this.content = content;
     }
     
-    
-    
 }
